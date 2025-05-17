@@ -1,0 +1,134 @@
+.productdisplay{
+    display:flex;
+    margin:0px 170px;
+
+
+
+}
+.productdisplay-left{
+    display:flex;
+    gap:16px;
+}
+.productdisplay-img-list{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+
+}
+.productdisplay-img-list img{
+    height:100px;
+}
+.productdisplay-main-img{
+    height:450px;
+    width:350px;
+
+}
+.productdisplay-right{
+      display:flex;
+    flex-direction:column;
+    margin-top:0px;
+    margin-left:30px;
+    margin-right: 0px;
+    margin-bottom:0px;
+  
+
+}
+.productdisplay-right h1{
+    color:#3d3d3d;
+    font-size:20px;
+    font-weight:700;
+    
+}
+.productdisplay-right-star{
+    display:flex;
+    align-items:center;
+    margin-top:5px;
+    gap:3px;
+    color:#1c1c1c;
+    font-size:10px;
+
+
+}
+.productdisplay-right-prices{
+    display:flex;
+    margin:10px 0px;
+    gap:10px;
+    font-size:20px;
+    font-weight:600;
+
+
+}
+.productdisplay-right-prices-old{
+    color:#818181;
+    text-decoration:line-through;
+
+
+}
+.productdisplay-right-prices-new{
+    color:#ff4141;
+
+}
+.productdisplay-right-size h1{
+    margin-top:30px;
+    color:#656565;
+    font-size:14px;
+    font-weight:500;
+
+}
+.productdisplay-right-size-list{
+    display:flex;
+    margin:10px 0px;
+    gap:20px;
+   
+}
+.productdisplay-right-size-list div{
+    padding:12px 18px;
+    background:#fbfbfb;
+    border:1px solid #ebebeb;
+    border-radius:3px;
+    cursor:pointer;
+}
+.productdisplay-right button{
+    padding:10px 30px;
+    width:150px;
+    font-size:10px;
+    font-weight: 600;
+    color:white;
+    background:#FF4141;
+    margin-bottom:10px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    margin-top:5px;
+
+
+}
+.productdisplay-right-category{
+    margin-top:0px;
+    font-size:10px;
+
+
+
+}
+.productdisplay-right-category span{
+    font-weight:700;
+}
+.productdisplay-right-tag{
+    margin-top:0px;
+    font-size:10px;
+
+
+
+}
+.productdisplay-right-tag span{
+    font-weight:700;
+}
+
+.productdisplay-category-both{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+

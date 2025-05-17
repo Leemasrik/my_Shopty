@@ -1,0 +1,38 @@
+.description{
+    margin:120px 170px;
+
+}
+.description-navigator{
+    display:flex;
+}
+.description-nav-box{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight:600;
+    width:150px;
+    height:50px;
+    border:1px solid #d0d0d0;
+    color:#888;
+}
+.description-nav-box-fade{
+    background:#FBFBFB;
+    color:#555;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:12px;
+    width:150px;
+    border:1px solid #d0d0d0;
+}
+.description-description{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    border:1px solid #D0D0D0;
+    padding:40px;
+    padding-bottom:60px;
+    color:#555;
+
+}
